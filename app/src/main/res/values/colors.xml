@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="colorPrimary">#27496d</color>
+    <color name="colorPrimaryDark">#142850</color>
+    <color name="colorAccent">#fddb3a</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dark90">#e1000000</color>
+    <color name="light90">#e6FFFFFF</color>
+    <color name="night_rider">#333333</color>
+    <color name="blue_gray">#9299a2</color>
+
+    <!--Text-->
+    <color name="text_color_primary">@color/night_rider</color>
+    <color name="text_color_secondary">@color/blue_gray</color>
+
+</resources>
