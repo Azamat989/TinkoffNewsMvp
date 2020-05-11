@@ -3,8 +3,8 @@ package com.example.tinkoffnewsmvp.core_ui.factory.creator
 import android.content.Context
 import android.content.Intent
 
-interface MainActivityCreator {
+interface MainActivityIntentCreator {
 
-    fun create(context: Context): Intent
+    fun createMainActivityIntent(context: Context): Intent
 
 }

@@ -9,6 +9,6 @@ import dagger.Module
 interface NewsRepositoryModule {
 
     @Binds
-    fun provideNewsRepository(impl: NewsRepositoryImpl): NewsRepository
+    fun bindNewsRepository(impl: NewsRepositoryImpl): NewsRepository
 
 }

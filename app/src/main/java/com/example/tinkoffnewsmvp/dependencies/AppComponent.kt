@@ -5,6 +5,7 @@ import com.example.tinkoffnewsmvp.App
 import com.example.tinkoffnewsmvp.dependencies.api.ApiModule
 import com.example.tinkoffnewsmvp.dependencies.app.AppModule
 import com.example.tinkoffnewsmvp.dependencies.database.DatabaseModule
+import com.example.tinkoffnewsmvp.dependencies.repository.NewsContentRepositoryModule
 import com.example.tinkoffnewsmvp.dependencies.repository.NewsRepositoryModule
 import dagger.BindsInstance
 import dagger.Component
@@ -17,6 +18,7 @@ import javax.inject.Singleton
         ApiModule::class,
         DatabaseModule::class,
         NewsRepositoryModule::class,
+        NewsContentRepositoryModule::class,
         InjectionModule::class
     ]
 )
@@ -33,4 +35,5 @@ interface AppComponent {
         fun build(): AppComponent
 
     }
+
 }

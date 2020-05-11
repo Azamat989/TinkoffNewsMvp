@@ -9,8 +9,7 @@ import com.example.tinkoffnewsmvp.utils.createIntent
 fun Context.createMainActivityIntent(): Intent =
     createIntent<MainActivity>()
 
-class MainActivity : SimpleActivity<MainActivityPresenter>(),
-    MainActivityPresenter.Router {
+class MainActivity : SimpleActivity<MainActivityPresenter>() {
 
     override fun getLayout(): Int = R.layout.activity_main
 

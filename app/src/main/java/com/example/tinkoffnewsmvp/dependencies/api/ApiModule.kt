@@ -1,6 +1,7 @@
 package com.example.tinkoffnewsmvp.dependencies.api
 
 import com.example.tinkoffnewsmvp.core.services.NewsApi
+import com.example.tinkoffnewsmvp.core.services.NewsContentApi
 import com.facebook.stetho.okhttp3.StethoInterceptor
 import com.google.gson.Gson
 import dagger.Module
@@ -28,6 +29,19 @@ class ApiModule {
             .addConverterFactory(GsonConverterFactory.create(converter))
             .build()
             .create(NewsApi::class.java)
+
+    @Provides
+    @Singleton
+    fun provideNewsContentApi(
+        okHttBuilder: OkHttpClient,
+        converter: Gson
+    ): NewsContentApi =
+        Retrofit.Builder()
+            .baseUrl(BASE_URL)
+            .client(okHttBuilder)
+            .addConverterFactory(GsonConverterFactory.create(converter))
+            .build()
+            .create(NewsContentApi::class.java)
 
     @Provides
     fun provideDefaultOkHttpBuilder(): OkHttpClient =

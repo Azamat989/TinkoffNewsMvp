@@ -8,6 +8,6 @@ import retrofit2.http.Query
 interface NewsContentApi {
 
     @GET("news_content")
-    fun getNewsContent(@Query("id") id: String): Response<NewsContentResponse>
+    suspend fun getNewsContent(@Query("id") id: String): Response<NewsContentResponse>
 
 }
