@@ -1,7 +1,7 @@
 package com.example.tinkoffnewsmvp.core_ui.error.handler
 
-import com.example.tinkoffnewsmvp.core_ui.CommonErrorView
 import com.example.tinkoffnewsmvp.core_ui.dependencies.ActivityScope
+import com.example.tinkoffnewsmvp.core_ui.view.CommonErrorView
 import com.example.tinkoffnewsmvp.utils.logger.logD
 import com.example.tinkoffnewsmvp.utils.takeIfNotBlank
 import javax.inject.Inject

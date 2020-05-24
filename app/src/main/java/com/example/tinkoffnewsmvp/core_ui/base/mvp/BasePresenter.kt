@@ -1,11 +1,11 @@
 package com.example.tinkoffnewsmvp.core_ui.base.mvp
 
-import com.example.tinkoffnewsmvp.core_ui.CommonErrorView
 import com.example.tinkoffnewsmvp.core_ui.base.BaseRouter
 import com.example.tinkoffnewsmvp.core_ui.base.back.BackListener
 import com.example.tinkoffnewsmvp.core_ui.base.coroutines.ProgressCoroutineJobDelegate
 import com.example.tinkoffnewsmvp.core_ui.base.coroutines.ProgressCoroutineJobDelegateImpl
 import com.example.tinkoffnewsmvp.core_ui.error.handler.UiErrorHandler
+import com.example.tinkoffnewsmvp.core_ui.view.CommonErrorView
 import dagger.Lazy
 import javax.inject.Inject
 

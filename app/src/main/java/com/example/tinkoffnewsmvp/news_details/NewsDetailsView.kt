@@ -2,15 +2,10 @@ package com.example.tinkoffnewsmvp.news_details
 
 import android.view.ViewGroup
 import androidx.core.text.parseAsHtml
-import com.example.tinkoffnewsmvp.core_ui.CommonErrorView
-import com.example.tinkoffnewsmvp.core_ui.CommonErrorViewImpl
 import com.example.tinkoffnewsmvp.core_ui.base.back.BackListener
 import com.example.tinkoffnewsmvp.core_ui.dependencies.ActivityScope
 import com.example.tinkoffnewsmvp.core_ui.utils.baseInit
-import com.example.tinkoffnewsmvp.core_ui.view.ToolbarContainer
-import com.example.tinkoffnewsmvp.core_ui.view.ToolbarContainerImpl
-import com.example.tinkoffnewsmvp.core_ui.view.TransparentProgress
-import com.example.tinkoffnewsmvp.core_ui.view.TransparentProgressDelegate
+import com.example.tinkoffnewsmvp.core_ui.view.*
 import kotlinx.android.extensions.LayoutContainer
 import kotlinx.android.synthetic.main.activity_news_details.view.*
 import javax.inject.Inject

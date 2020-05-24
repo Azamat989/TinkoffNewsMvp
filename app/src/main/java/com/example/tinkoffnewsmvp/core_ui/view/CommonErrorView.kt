@@ -1,4 +1,4 @@
-package com.example.tinkoffnewsmvp.core_ui
+package com.example.tinkoffnewsmvp.core_ui.view
 
 import android.content.Context
 import androidx.annotation.StringRes

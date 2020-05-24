@@ -1,7 +1,6 @@
 package com.example.tinkoffnewsmvp.core_ui.utils
 
 import android.content.Context
-import android.view.WindowManager
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import com.example.tinkoffnewsmvp.R

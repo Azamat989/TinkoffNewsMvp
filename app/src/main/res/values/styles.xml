@@ -17,6 +17,11 @@
         <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
 
+    <style name="WhiteProgressTheme" parent="Widget.AppCompat.ProgressBar">
+        <item name="colorAccent">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+    </style>
+
     <style name="BaseButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
         <item name="android:backgroundTint">@color/colorAccent</item>
         <item name="android:elevation">6dp</item>
