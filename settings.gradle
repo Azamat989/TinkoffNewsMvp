@@ -1,2 +1,3 @@
 rootProject.name='TinkoffNewsMvp'
 include ':app'
+include ':core'

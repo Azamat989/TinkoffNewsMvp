@@ -11,10 +11,6 @@ import androidx.annotation.LayoutRes
 
 inline fun <reified T> Context.createIntent() = Intent(this, T::class.java)
 
-
-fun Context.inflate(@LayoutRes layoutId: Int): View =
-    LayoutInflater.from(this).inflate(layoutId, null)
-
 fun Context.findActivity(): Activity? =
     when (this) {
         is Activity -> this

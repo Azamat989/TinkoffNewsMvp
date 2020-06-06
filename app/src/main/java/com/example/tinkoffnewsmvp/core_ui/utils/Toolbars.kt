@@ -2,7 +2,6 @@ package com.example.tinkoffnewsmvp.core_ui.utils
 
 import androidx.annotation.StringRes
 import androidx.appcompat.widget.Toolbar
-import com.example.tinkoffnewsmvp.R
 
 fun Toolbar.baseInit(
     @StringRes titleResId: Int = 0,

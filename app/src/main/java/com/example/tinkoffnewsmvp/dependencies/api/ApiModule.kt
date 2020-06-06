@@ -1,7 +1,7 @@
 package com.example.tinkoffnewsmvp.dependencies.api
 
-import com.example.tinkoffnewsmvp.core.services.NewsApi
-import com.example.tinkoffnewsmvp.core.services.NewsContentApi
+import com.example.tinkoffnewsmvp.services.NewsApi
+import com.example.tinkoffnewsmvp.services.NewsContentApi
 import com.facebook.stetho.okhttp3.StethoInterceptor
 import com.google.gson.Gson
 import dagger.Module
@@ -55,4 +55,5 @@ class ApiModule {
     @Provides
     @Singleton
     fun provideConverter(): Gson = Gson()
+
 }

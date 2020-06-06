@@ -1,8 +1,8 @@
 package com.example.tinkoffnewsmvp.news.paging
 
 import androidx.paging.DataSource
-import com.example.tinkoffnewsmvp.core.dto.news.NewsBlock
-import com.example.tinkoffnewsmvp.core.repository.news.NewsRepository
+import com.example.tinkoffnewsmvp.dto.news.NewsBlock
+import com.example.tinkoffnewsmvp.repository.news.NewsRepository
 import javax.inject.Inject
 
 interface NewsSourceFactory

@@ -4,8 +4,8 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
-import com.example.tinkoffnewsmvp.core.dto.news.NewsBlock
 import com.example.tinkoffnewsmvp.R
+import com.example.tinkoffnewsmvp.dto.news.NewsBlock
 import com.example.tinkoffnewsmvp.news.MainActivityPresenterImpl
 import javax.inject.Inject
 
@@ -29,8 +29,6 @@ class NewsAdapter @Inject constructor(
     }
 
     companion object {
-
-        const val TAG = "NewsAdapter"
 
         private val diffUtilItemCallback = object : DiffUtil.ItemCallback<NewsBlock>() {
             override fun areItemsTheSame(oldItem: NewsBlock, newItem: NewsBlock): Boolean =

@@ -1,11 +1,11 @@
 package com.example.tinkoffnewsmvp.data.repository
 
-import com.example.tinkoffnewsmvp.core.dto.news.NewsBlock
-import com.example.tinkoffnewsmvp.core.dto.news.NewsBlockEntity
-import com.example.tinkoffnewsmvp.core.dto.news.NewsBlockResponse
-import com.example.tinkoffnewsmvp.core.repository.news.NewsDao
-import com.example.tinkoffnewsmvp.core.repository.news.NewsRepository
-import com.example.tinkoffnewsmvp.core.services.NewsApi
+import com.example.tinkoffnewsmvp.dto.news.NewsBlock
+import com.example.tinkoffnewsmvp.dto.news.NewsBlockEntity
+import com.example.tinkoffnewsmvp.dto.news.NewsBlockResponse
+import com.example.tinkoffnewsmvp.repository.news.NewsDao
+import com.example.tinkoffnewsmvp.repository.news.NewsRepository
+import com.example.tinkoffnewsmvp.services.NewsApi
 import javax.inject.Inject
 
 class NewsRepositoryImpl @Inject constructor(

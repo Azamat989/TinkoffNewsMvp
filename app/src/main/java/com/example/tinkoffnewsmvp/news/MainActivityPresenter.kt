@@ -2,12 +2,12 @@ package com.example.tinkoffnewsmvp.news
 
 import androidx.lifecycle.LiveData
 import androidx.paging.PagedList
-import com.example.tinkoffnewsmvp.core.dto.news.NewsBlock
 import com.example.tinkoffnewsmvp.core_ui.base.BaseRouter
 import com.example.tinkoffnewsmvp.core_ui.base.mvp.BasePresenter
 import com.example.tinkoffnewsmvp.core_ui.base.mvp.Presenter
 import com.example.tinkoffnewsmvp.core_ui.dependencies.ActivityScope
 import com.example.tinkoffnewsmvp.core_ui.view.SwipeRefreshView
+import com.example.tinkoffnewsmvp.dto.news.NewsBlock
 import com.example.tinkoffnewsmvp.news.adapter.NewsCallback
 import com.example.tinkoffnewsmvp.utils.coroutines.tryLaunch
 import javax.inject.Inject

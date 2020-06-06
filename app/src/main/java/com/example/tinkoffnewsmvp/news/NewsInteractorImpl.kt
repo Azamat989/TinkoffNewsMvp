@@ -4,9 +4,9 @@ import androidx.lifecycle.LiveData
 import androidx.paging.DataSource
 import androidx.paging.LivePagedListBuilder
 import androidx.paging.PagedList
-import com.example.tinkoffnewsmvp.core.dto.news.NewsBlock
-import com.example.tinkoffnewsmvp.core.repository.news.NewsRepository
+import com.example.tinkoffnewsmvp.dto.news.NewsBlock
 import com.example.tinkoffnewsmvp.news.paging.NewsSourceFactory
+import com.example.tinkoffnewsmvp.repository.news.NewsRepository
 import javax.inject.Inject
 
 const val LIST_SIZE = 20

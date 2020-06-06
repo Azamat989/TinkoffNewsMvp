@@ -3,7 +3,6 @@ package com.example.tinkoffnewsmvp.utils.logger
 import android.util.Log
 import com.example.tinkoffnewsmvp.BuildConfig
 import java.net.UnknownHostException
-import java.util.logging.Logger
 
 fun Any.logD(tag: String? = null, message: String = "", throwable: Throwable? = null) {
     try {

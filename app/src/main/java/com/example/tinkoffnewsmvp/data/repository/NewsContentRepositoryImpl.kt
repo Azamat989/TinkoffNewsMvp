@@ -1,9 +1,9 @@
 package com.example.tinkoffnewsmvp.data.repository
 
-import com.example.tinkoffnewsmvp.core.dto.newscontent.NewsContent
-import com.example.tinkoffnewsmvp.core.dto.newscontent.NewsPayload
-import com.example.tinkoffnewsmvp.core.repository.news_content.NewsContentRepository
-import com.example.tinkoffnewsmvp.core.services.NewsContentApi
+import com.example.tinkoffnewsmvp.dto.newscontent.NewsContent
+import com.example.tinkoffnewsmvp.dto.newscontent.NewsPayload
+import com.example.tinkoffnewsmvp.repository.news_content.NewsContentRepository
+import com.example.tinkoffnewsmvp.services.NewsContentApi
 import javax.inject.Inject
 
 class NewsContentRepositoryImpl @Inject constructor(

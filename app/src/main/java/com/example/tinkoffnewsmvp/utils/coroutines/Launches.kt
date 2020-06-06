@@ -38,21 +38,6 @@ fun tryBlocking(
     }
 }
 
-fun tryGlobalLaunch(
-    context: CoroutineContext = EmptyCoroutineContext,
-    block: suspend () -> Unit,
-    doOnError: Throwable.() -> Unit
-) {
-    GlobalScope.launch(context) {
-        try {
-            block()
-        } catch (exception: Exception) {
-            exception.checkCancellation()
-            exception.doOnError()
-        }
-    }
-}
-
 fun Throwable.checkCancellation() {
     if (this is CancellationException) throw this
 }

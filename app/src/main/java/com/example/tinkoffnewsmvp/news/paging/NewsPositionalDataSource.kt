@@ -2,8 +2,8 @@ package com.example.tinkoffnewsmvp.news.paging
 
 import android.util.Log
 import androidx.paging.PositionalDataSource
-import com.example.tinkoffnewsmvp.core.dto.news.NewsBlock
-import com.example.tinkoffnewsmvp.core.repository.news.NewsRepository
+import com.example.tinkoffnewsmvp.dto.news.NewsBlock
+import com.example.tinkoffnewsmvp.repository.news.NewsRepository
 
 class NewsPositionalDataSource(
     private val newsRepository: NewsRepository

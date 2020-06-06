@@ -1,7 +1,7 @@
 package com.example.tinkoffnewsmvp.splash
 
-import com.example.tinkoffnewsmvp.core.repository.news.NewsRepository
 import com.example.tinkoffnewsmvp.core_ui.dependencies.ActivityScope
+import com.example.tinkoffnewsmvp.repository.news.NewsRepository
 import javax.inject.Inject
 
 interface SplashInteractor {

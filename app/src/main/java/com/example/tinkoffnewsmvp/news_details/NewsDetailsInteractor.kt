@@ -1,7 +1,7 @@
 package com.example.tinkoffnewsmvp.news_details
 
-import com.example.tinkoffnewsmvp.core.dto.newscontent.NewsContent
-import com.example.tinkoffnewsmvp.core.repository.news_content.NewsContentRepository
+import com.example.tinkoffnewsmvp.dto.newscontent.NewsContent
+import com.example.tinkoffnewsmvp.repository.news_content.NewsContentRepository
 import javax.inject.Inject
 
 interface NewsDetailsInteractor {
