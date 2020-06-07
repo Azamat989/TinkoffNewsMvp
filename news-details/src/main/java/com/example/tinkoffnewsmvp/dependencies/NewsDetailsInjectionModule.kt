@@ -1,6 +1,6 @@
-package com.example.tinkoffnewsmvp.news_details.dependencies
+package com.example.tinkoffnewsmvp.dependencies
 
-import com.example.tinkoffnewsmvp.news_details.NewsDetailsActivity
+import com.example.tinkoffnewsmvp.NewsDetailsActivity
 import dagger.Binds
 import dagger.Module
 import dagger.android.AndroidInjector

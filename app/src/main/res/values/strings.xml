@@ -2,7 +2,4 @@
 
     <string name="app_name">Tinkoff News</string>
 
-    <string name="news_details_close_item">Close</string>
-    <string name="news_details_retry_button">Retry</string>
-
 </resources>

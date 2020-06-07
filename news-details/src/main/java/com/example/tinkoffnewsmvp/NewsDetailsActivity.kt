@@ -1,10 +1,8 @@
-package com.example.tinkoffnewsmvp.news_details
+package com.example.tinkoffnewsmvp
 
 import android.content.Context
 import android.content.Intent
-import com.example.tinkoffnewsmvp.R
 import com.example.tinkoffnewsmvp.base.mvp.SimpleActivity
-import com.example.tinkoffnewsmvp.createIntent
 
 const val EXTRA_NEWS_ID = "EXTRA_NEWS_ID"
 

@@ -1,7 +1,7 @@
-package com.example.tinkoffnewsmvp.news_details.dependencies
+package com.example.tinkoffnewsmvp.dependencies
 
+import com.example.tinkoffnewsmvp.*
 import com.example.tinkoffnewsmvp.error.handler.dependencies.UiErrorHandlerModule
-import com.example.tinkoffnewsmvp.news_details.*
 import dagger.Binds
 import dagger.Module
 

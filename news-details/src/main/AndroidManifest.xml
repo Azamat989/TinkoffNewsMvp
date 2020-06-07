@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tinkoffnewsmvp">
+
+    <application>
+
+        <activity
+            android:name=".NewsDetailsActivity"
+            android:theme="@style/AppTheme" />
+
+    </application>
+
+</manifest>

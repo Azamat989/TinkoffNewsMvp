@@ -1,4 +1,4 @@
-package com.example.tinkoffnewsmvp.news_details
+package com.example.tinkoffnewsmvp
 
 import android.view.ViewGroup
 import androidx.core.text.parseAsHtml

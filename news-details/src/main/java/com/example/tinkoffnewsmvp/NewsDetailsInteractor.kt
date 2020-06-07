@@ -1,4 +1,4 @@
-package com.example.tinkoffnewsmvp.news_details
+package com.example.tinkoffnewsmvp
 
 import com.example.tinkoffnewsmvp.dependencies.ActivityScope
 import com.example.tinkoffnewsmvp.dto.newscontent.NewsContent

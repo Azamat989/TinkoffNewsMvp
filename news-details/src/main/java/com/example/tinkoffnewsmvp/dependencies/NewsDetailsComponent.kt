@@ -1,11 +1,10 @@
-package com.example.tinkoffnewsmvp.news_details.dependencies
+package com.example.tinkoffnewsmvp.dependencies
 
 import android.app.Activity
 import android.view.ViewGroup
-import com.example.tinkoffnewsmvp.dependencies.ActivityScope
-import com.example.tinkoffnewsmvp.news_details.EXTRA_NEWS_ID
-import com.example.tinkoffnewsmvp.news_details.NewsDetailsActivity
-import com.example.tinkoffnewsmvp.news_details.NewsDetailsPresenter
+import com.example.tinkoffnewsmvp.EXTRA_NEWS_ID
+import com.example.tinkoffnewsmvp.NewsDetailsActivity
+import com.example.tinkoffnewsmvp.NewsDetailsPresenter
 import com.example.tinkoffnewsmvp.utils.getContentView
 import dagger.BindsInstance
 import dagger.Subcomponent
