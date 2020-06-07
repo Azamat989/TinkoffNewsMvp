@@ -1,6 +1,6 @@
-package com.example.tinkoffnewsmvp.splash.dependencies
+package com.example.tinkoffnewsmvp.dependencies
 
-import com.example.tinkoffnewsmvp.splash.SplashActivity
+import com.example.tinkoffnewsmvp.SplashActivity
 import dagger.Binds
 import dagger.Module
 import dagger.android.AndroidInjector

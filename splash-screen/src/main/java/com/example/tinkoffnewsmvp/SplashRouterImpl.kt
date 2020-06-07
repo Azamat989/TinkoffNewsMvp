@@ -1,4 +1,4 @@
-package com.example.tinkoffnewsmvp.splash
+package com.example.tinkoffnewsmvp
 
 import android.app.Activity
 import com.example.tinkoffnewsmvp.dependencies.ActivityScope

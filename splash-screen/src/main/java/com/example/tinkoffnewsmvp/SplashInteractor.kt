@@ -1,4 +1,4 @@
-package com.example.tinkoffnewsmvp.splash
+package com.example.tinkoffnewsmvp
 
 import com.example.tinkoffnewsmvp.dependencies.ActivityScope
 import com.example.tinkoffnewsmvp.repository.news.NewsRepository

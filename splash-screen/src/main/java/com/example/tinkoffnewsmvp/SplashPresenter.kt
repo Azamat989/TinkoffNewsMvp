@@ -1,4 +1,4 @@
-package com.example.tinkoffnewsmvp.splash
+package com.example.tinkoffnewsmvp
 
 import com.example.tinkoffnewsmvp.base.BaseRouter
 import com.example.tinkoffnewsmvp.base.mvp.BasePresenter

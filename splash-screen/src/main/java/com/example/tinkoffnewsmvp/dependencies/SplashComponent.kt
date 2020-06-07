@@ -1,9 +1,8 @@
-package com.example.tinkoffnewsmvp.splash.dependencies
+package com.example.tinkoffnewsmvp.dependencies
 
 import android.app.Activity
 import android.view.ViewGroup
-import com.example.tinkoffnewsmvp.dependencies.ActivityScope
-import com.example.tinkoffnewsmvp.splash.SplashActivity
+import com.example.tinkoffnewsmvp.SplashActivity
 import com.example.tinkoffnewsmvp.utils.getContentView
 import dagger.BindsInstance
 import dagger.Subcomponent

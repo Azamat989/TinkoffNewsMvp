@@ -1,6 +1,7 @@
 apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
+apply plugin: "kotlin-android"
+apply plugin: "kotlin-android-extensions"
+apply plugin: "kotlin-kapt"
 
 android {
     compileSdkVersion 29
@@ -29,10 +30,15 @@ android {
 
 dependencies {
 
-    implementation project(":core")
+    implementation project(':core')
+    implementation project(':core-ui')
     implementation project(':utils')
 
-    // Retrofit
-    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    // Dagger2
+    implementation "com.google.dagger:dagger:$daggerVersion"
+    implementation "com.google.dagger:dagger-android:$daggerVersion"
+    implementation "com.google.dagger:dagger-android-support:$daggerVersion"
+    kapt "com.google.dagger:dagger-android-processor:$daggerVersion"
+    kapt "com.google.dagger:dagger-compiler:$daggerVersion"
 
 }

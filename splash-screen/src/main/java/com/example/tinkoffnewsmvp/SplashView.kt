@@ -1,4 +1,4 @@
-package com.example.tinkoffnewsmvp.splash
+package com.example.tinkoffnewsmvp
 
 import android.view.ViewGroup
 import com.example.tinkoffnewsmvp.base.back.BackListener
