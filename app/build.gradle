@@ -52,6 +52,7 @@ dependencies {
     implementation project(":core")
     implementation project(":core-ui")
     implementation project(":utils")
+    implementation project(":data")
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation "androidx.core:core-ktx:$coreKtxVersion"

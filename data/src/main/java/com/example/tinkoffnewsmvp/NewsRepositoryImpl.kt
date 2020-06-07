@@ -1,4 +1,4 @@
-package com.example.tinkoffnewsmvp.data.repository
+package com.example.tinkoffnewsmvp
 
 import com.example.tinkoffnewsmvp.dto.news.NewsBlock
 import com.example.tinkoffnewsmvp.dto.news.NewsBlockEntity
