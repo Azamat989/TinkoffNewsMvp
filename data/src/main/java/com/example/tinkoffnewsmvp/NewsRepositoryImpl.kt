@@ -7,7 +7,9 @@ import com.example.tinkoffnewsmvp.repository.news.NewsDao
 import com.example.tinkoffnewsmvp.repository.news.NewsRepository
 import com.example.tinkoffnewsmvp.services.NewsApi
 import javax.inject.Inject
+import javax.inject.Singleton
 
+@Singleton
 class NewsRepositoryImpl @Inject constructor(
     private val newsDao: NewsDao,
     private val newsApi: NewsApi

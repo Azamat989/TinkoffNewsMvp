@@ -45,7 +45,6 @@ android {
 
 dependencies {
 
-    implementation project(":core")
     implementation project(":utils")
 
     api "androidx.constraintlayout:constraintlayout:1.1.3"

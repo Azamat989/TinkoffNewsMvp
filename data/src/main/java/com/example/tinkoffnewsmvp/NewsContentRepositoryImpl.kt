@@ -5,7 +5,9 @@ import com.example.tinkoffnewsmvp.dto.newscontent.NewsPayload
 import com.example.tinkoffnewsmvp.repository.news_content.NewsContentRepository
 import com.example.tinkoffnewsmvp.services.NewsContentApi
 import javax.inject.Inject
+import javax.inject.Singleton
 
+@Singleton
 class NewsContentRepositoryImpl @Inject constructor(
     private val api: NewsContentApi
 ) : NewsContentRepository {
