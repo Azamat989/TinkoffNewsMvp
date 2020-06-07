@@ -1,9 +1,9 @@
 package com.example.tinkoffnewsmvp.news_details
 
-import com.example.tinkoffnewsmvp.core_ui.base.BaseRouter
-import com.example.tinkoffnewsmvp.core_ui.base.mvp.BasePresenter
-import com.example.tinkoffnewsmvp.core_ui.base.mvp.Presenter
-import com.example.tinkoffnewsmvp.core_ui.dependencies.ActivityScope
+import com.example.tinkoffnewsmvp.base.BaseRouter
+import com.example.tinkoffnewsmvp.base.mvp.BasePresenter
+import com.example.tinkoffnewsmvp.base.mvp.Presenter
+import com.example.tinkoffnewsmvp.dependencies.ActivityScope
 import com.example.tinkoffnewsmvp.dto.newscontent.NewsContent
 import javax.inject.Inject
 import javax.inject.Named

@@ -2,8 +2,8 @@ package com.example.tinkoffnewsmvp.news
 
 import android.content.Context
 import android.content.Intent
-import com.example.tinkoffnewsmvp.core_ui.factory.creator.MainActivityIntentCreator
-import com.example.tinkoffnewsmvp.utils.createIntent
+import com.example.tinkoffnewsmvp.createIntent
+import com.example.tinkoffnewsmvp.factory.creator.MainActivityIntentCreator
 
 class MainActivityIntentCreatorImpl : MainActivityIntentCreator {
 

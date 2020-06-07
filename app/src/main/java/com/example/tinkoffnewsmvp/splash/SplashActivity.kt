@@ -3,7 +3,7 @@ package com.example.tinkoffnewsmvp.splash
 import android.os.Bundle
 import android.view.View
 import com.example.tinkoffnewsmvp.R
-import com.example.tinkoffnewsmvp.core_ui.base.mvp.SimpleActivity
+import com.example.tinkoffnewsmvp.base.mvp.SimpleActivity
 
 class SplashActivity : SimpleActivity<SplashPresenter>() {
 

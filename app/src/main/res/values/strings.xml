@@ -6,13 +6,4 @@
     <string name="news_details_close_item">Close</string>
     <string name="news_details_retry_button">Retry</string>
 
-    <string name="common_operation_failed">Не удалось выполнить операцию</string>
-    <string name="common_repeat_button">Повторить</string>
-    <string name="common_network_error">Ошибка сети</string>
-    <string name="common_refresh_button">Обновить</string>
-    <string name="common_refill_button">Пополнить</string>
-    <string name="common_close_button">Закрыть</string>
-    <string name="common_error_title">Ошибка</string>
-    <string name="common_info_button">Информация</string>
-
 </resources>

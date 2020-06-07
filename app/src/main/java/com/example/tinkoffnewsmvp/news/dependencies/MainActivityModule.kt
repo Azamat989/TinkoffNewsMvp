@@ -1,6 +1,6 @@
 package com.example.tinkoffnewsmvp.news.dependencies
 
-import com.example.tinkoffnewsmvp.core_ui.error.handler.dependencies.UiErrorHandlerModule
+import com.example.tinkoffnewsmvp.error.handler.dependencies.UiErrorHandlerModule
 import com.example.tinkoffnewsmvp.news.*
 import com.example.tinkoffnewsmvp.news.paging.NewsSourceFactory
 import com.example.tinkoffnewsmvp.news.paging.NewsSourceFactoryImpl

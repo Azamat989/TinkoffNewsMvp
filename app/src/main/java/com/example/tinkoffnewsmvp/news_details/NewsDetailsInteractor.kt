@@ -1,5 +1,6 @@
 package com.example.tinkoffnewsmvp.news_details
 
+import com.example.tinkoffnewsmvp.dependencies.ActivityScope
 import com.example.tinkoffnewsmvp.dto.newscontent.NewsContent
 import com.example.tinkoffnewsmvp.repository.news_content.NewsContentRepository
 import javax.inject.Inject
@@ -10,6 +11,7 @@ interface NewsDetailsInteractor {
 
 }
 
+@ActivityScope
 class NewsDetailsInteractorImpl @Inject constructor(
     private val repository: NewsContentRepository
 ) : NewsDetailsInteractor {

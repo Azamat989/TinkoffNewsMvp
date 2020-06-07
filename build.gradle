@@ -1,7 +1,36 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
-    ext.kotlin_version = '1.3.72'
+    ext {
+        kotlin_version = '1.3.72'
+
+        compileSdkVersion = 29
+        minSdkVersion = 21
+        targetSdkVersion = 29
+
+        //Google
+        appcompatVersion = '1.1.0'
+        coreKtxVersion = '1.3.0'
+        lifecycleVersion = '2.2.0'
+
+        //plugins
+        coroutinesVersion = '1.3.5'
+
+        // DI
+        daggerVersion = '2.28'
+        injectAnnotationsVersion = '1'
+
+        // Network
+        retrofitVersion = '2.9.0'
+
+        // DB
+        roomVersion = '2.2.5'
+
+        //Stetho
+        stethoVersiom = '1.5.1'
+
+    }
+
     repositories {
         google()
         jcenter()

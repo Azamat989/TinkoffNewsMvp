@@ -1,6 +1,6 @@
 package com.example.tinkoffnewsmvp.splash.dependencies
 
-import com.example.tinkoffnewsmvp.core_ui.error.handler.dependencies.UiErrorHandlerModule
+import com.example.tinkoffnewsmvp.error.handler.dependencies.UiErrorHandlerModule
 import com.example.tinkoffnewsmvp.splash.*
 import dagger.Binds
 import dagger.Module

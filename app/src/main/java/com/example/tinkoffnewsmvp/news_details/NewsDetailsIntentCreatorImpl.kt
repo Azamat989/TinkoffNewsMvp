@@ -2,7 +2,7 @@ package com.example.tinkoffnewsmvp.news_details
 
 import android.content.Context
 import android.content.Intent
-import com.example.tinkoffnewsmvp.core_ui.factory.creator.NewsDetailsIntentCreator
+import com.example.tinkoffnewsmvp.factory.creator.NewsDetailsIntentCreator
 
 class NewsDetailsIntentCreatorImpl : NewsDetailsIntentCreator {
 

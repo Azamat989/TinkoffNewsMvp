@@ -1,9 +1,9 @@
 package com.example.tinkoffnewsmvp.splash
 
-import com.example.tinkoffnewsmvp.core_ui.base.BaseRouter
-import com.example.tinkoffnewsmvp.core_ui.base.mvp.BasePresenter
-import com.example.tinkoffnewsmvp.core_ui.base.mvp.Presenter
-import com.example.tinkoffnewsmvp.core_ui.dependencies.ActivityScope
+import com.example.tinkoffnewsmvp.base.BaseRouter
+import com.example.tinkoffnewsmvp.base.mvp.BasePresenter
+import com.example.tinkoffnewsmvp.base.mvp.Presenter
+import com.example.tinkoffnewsmvp.dependencies.ActivityScope
 import com.example.tinkoffnewsmvp.utils.coroutines.tryLaunch
 import javax.inject.Inject
 

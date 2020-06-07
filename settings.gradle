@@ -1,3 +1,5 @@
+include ':utils'
+include ':core-ui'
 rootProject.name='TinkoffNewsMvp'
 include ':app'
 include ':core'
