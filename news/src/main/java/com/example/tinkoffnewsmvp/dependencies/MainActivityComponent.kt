@@ -1,9 +1,8 @@
-package com.example.tinkoffnewsmvp.news.dependencies
+package com.example.tinkoffnewsmvp.dependencies
 
 import android.app.Activity
 import android.view.ViewGroup
-import com.example.tinkoffnewsmvp.dependencies.ActivityScope
-import com.example.tinkoffnewsmvp.news.MainActivity
+import com.example.tinkoffnewsmvp.MainActivity
 import com.example.tinkoffnewsmvp.utils.getContentView
 import dagger.BindsInstance
 import dagger.Subcomponent

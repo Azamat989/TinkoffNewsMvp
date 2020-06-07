@@ -1,10 +1,8 @@
-package com.example.tinkoffnewsmvp.news
+package com.example.tinkoffnewsmvp
 
 import android.content.Context
 import android.content.Intent
-import com.example.tinkoffnewsmvp.R
 import com.example.tinkoffnewsmvp.base.mvp.SimpleActivity
-import com.example.tinkoffnewsmvp.createIntent
 
 fun Context.createMainActivityIntent(): Intent =
     createIntent<MainActivity>()

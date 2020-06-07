@@ -1,4 +1,4 @@
-package com.example.tinkoffnewsmvp.news
+package com.example.tinkoffnewsmvp
 
 import androidx.lifecycle.LiveData
 import androidx.paging.DataSource
@@ -6,7 +6,7 @@ import androidx.paging.LivePagedListBuilder
 import androidx.paging.PagedList
 import com.example.tinkoffnewsmvp.dependencies.ActivityScope
 import com.example.tinkoffnewsmvp.dto.news.NewsBlock
-import com.example.tinkoffnewsmvp.news.paging.NewsSourceFactory
+import com.example.tinkoffnewsmvp.paging.NewsSourceFactory
 import com.example.tinkoffnewsmvp.repository.news.NewsRepository
 import javax.inject.Inject
 

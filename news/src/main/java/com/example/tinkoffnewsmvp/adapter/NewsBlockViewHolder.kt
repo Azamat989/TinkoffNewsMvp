@@ -1,4 +1,4 @@
-package com.example.tinkoffnewsmvp.news.adapter
+package com.example.tinkoffnewsmvp.adapter
 
 import android.util.Log
 import android.view.View

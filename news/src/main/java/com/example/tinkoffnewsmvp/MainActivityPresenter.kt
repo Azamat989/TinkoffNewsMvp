@@ -1,13 +1,13 @@
-package com.example.tinkoffnewsmvp.news
+package com.example.tinkoffnewsmvp
 
 import androidx.lifecycle.LiveData
 import androidx.paging.PagedList
+import com.example.tinkoffnewsmvp.adapter.NewsCallback
 import com.example.tinkoffnewsmvp.base.BaseRouter
 import com.example.tinkoffnewsmvp.base.mvp.BasePresenter
 import com.example.tinkoffnewsmvp.base.mvp.Presenter
 import com.example.tinkoffnewsmvp.dependencies.ActivityScope
 import com.example.tinkoffnewsmvp.dto.news.NewsBlock
-import com.example.tinkoffnewsmvp.news.adapter.NewsCallback
 import com.example.tinkoffnewsmvp.utils.coroutines.tryLaunch
 import com.example.tinkoffnewsmvp.view.SwipeRefreshView
 import javax.inject.Inject

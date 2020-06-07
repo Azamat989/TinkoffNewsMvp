@@ -1,4 +1,4 @@
-package com.example.tinkoffnewsmvp.news.paging
+package com.example.tinkoffnewsmvp.paging
 
 import androidx.paging.DataSource
 import com.example.tinkoffnewsmvp.dependencies.ActivityScope

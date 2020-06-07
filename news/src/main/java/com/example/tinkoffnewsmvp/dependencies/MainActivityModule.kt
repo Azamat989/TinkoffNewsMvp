@@ -1,10 +1,10 @@
-package com.example.tinkoffnewsmvp.news.dependencies
+package com.example.tinkoffnewsmvp.dependencies
 
+import com.example.tinkoffnewsmvp.*
 import com.example.tinkoffnewsmvp.error.handler.dependencies.UiErrorHandlerModule
-import com.example.tinkoffnewsmvp.news.*
-import com.example.tinkoffnewsmvp.news.paging.NewsSourceFactory
-import com.example.tinkoffnewsmvp.news.paging.NewsSourceFactoryImpl
-import com.example.tinkoffnewsmvp.news.router.MainActivityRouter
+import com.example.tinkoffnewsmvp.paging.NewsSourceFactory
+import com.example.tinkoffnewsmvp.paging.NewsSourceFactoryImpl
+import com.example.tinkoffnewsmvp.router.MainActivityRouter
 import dagger.Binds
 import dagger.Module
 

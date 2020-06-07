@@ -1,15 +1,14 @@
-package com.example.tinkoffnewsmvp.news
+package com.example.tinkoffnewsmvp
 
 import android.util.Log
 import android.view.ViewGroup
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import androidx.paging.PagedList
-import com.example.tinkoffnewsmvp.R
+import com.example.tinkoffnewsmvp.adapter.NewsAdapter
 import com.example.tinkoffnewsmvp.base.back.BackListener
 import com.example.tinkoffnewsmvp.dependencies.ActivityScope
 import com.example.tinkoffnewsmvp.dto.news.NewsBlock
-import com.example.tinkoffnewsmvp.news.adapter.NewsAdapter
 import com.example.tinkoffnewsmvp.utils.baseInit
 import com.example.tinkoffnewsmvp.utils.context
 import com.example.tinkoffnewsmvp.utils.getTag

@@ -1,3 +1,4 @@
+include ':news'
 rootProject.name='TinkoffNewsMvp'
 include ':splash-screen'
 include ':data'

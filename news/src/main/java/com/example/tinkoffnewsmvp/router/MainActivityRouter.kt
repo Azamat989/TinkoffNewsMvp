@@ -1,8 +1,8 @@
-package com.example.tinkoffnewsmvp.news.router
+package com.example.tinkoffnewsmvp.router
 
 import android.app.Activity
+import com.example.tinkoffnewsmvp.MainActivityPresenter
 import com.example.tinkoffnewsmvp.factory.IntentFactory
-import com.example.tinkoffnewsmvp.news.MainActivityPresenter
 import javax.inject.Inject
 
 class MainActivityRouter @Inject constructor(

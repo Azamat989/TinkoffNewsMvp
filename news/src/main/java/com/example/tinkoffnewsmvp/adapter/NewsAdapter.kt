@@ -1,12 +1,12 @@
-package com.example.tinkoffnewsmvp.news.adapter
+package com.example.tinkoffnewsmvp.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
+import com.example.tinkoffnewsmvp.MainActivityPresenterImpl
 import com.example.tinkoffnewsmvp.R
 import com.example.tinkoffnewsmvp.dto.news.NewsBlock
-import com.example.tinkoffnewsmvp.news.MainActivityPresenterImpl
 import javax.inject.Inject
 
 class NewsAdapter @Inject constructor(
@@ -38,4 +38,5 @@ class NewsAdapter @Inject constructor(
                 oldItem == newItem
         }
     }
+
 }

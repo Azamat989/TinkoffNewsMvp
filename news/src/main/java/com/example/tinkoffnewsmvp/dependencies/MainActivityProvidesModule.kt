@@ -1,9 +1,8 @@
-package com.example.tinkoffnewsmvp.news.dependencies
+package com.example.tinkoffnewsmvp.dependencies
 
 import android.view.ViewGroup
-import com.example.tinkoffnewsmvp.dependencies.ActivityScope
-import com.example.tinkoffnewsmvp.news.MainActivityPresenterImpl
-import com.example.tinkoffnewsmvp.news.adapter.NewsAdapter
+import com.example.tinkoffnewsmvp.MainActivityPresenterImpl
+import com.example.tinkoffnewsmvp.adapter.NewsAdapter
 import com.example.tinkoffnewsmvp.view.SwipeRefreshView
 import com.example.tinkoffnewsmvp.view.SwipeRefreshViewImpl
 import dagger.Module

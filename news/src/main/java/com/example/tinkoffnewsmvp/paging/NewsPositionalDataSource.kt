@@ -1,4 +1,4 @@
-package com.example.tinkoffnewsmvp.news.paging
+package com.example.tinkoffnewsmvp.paging
 
 import android.util.Log
 import androidx.paging.PositionalDataSource
